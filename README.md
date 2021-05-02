@@ -14,3 +14,4 @@ None.
 | ---- | --------- | ------------------------------------ |
 | ID   | Yes       | User ID for access to MJPG Streamer  |
 | PW   | Yes       | Password for access to MJPT Streamer |
+| LINE_TOKEN1 | Yes | Token for the Line notify           |

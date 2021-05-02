@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -l
 PORT="8080"
 SIZE="1280x720"
 FRAMERATE="30"
