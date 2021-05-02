@@ -5,4 +5,5 @@ svn co https://svn.code.sf.net/p/mjpg-streamer/code/mjpg-streamer mjpg-streamer
 cd mjpg-streamer
 make
 sudo make install
-ehco "SUCCESSFULLY INSTALLED"
+mkdir pics
+echo "SUCCESSFULLY INSTALLED"
