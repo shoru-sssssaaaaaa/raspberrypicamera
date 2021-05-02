@@ -8,4 +8,5 @@ echo $PWD
 sudo chmod 755 $PWD/mjpg-streamer/mjpg_streamer
 $PWD/mjpg-streamer/mjpg_streamer \
 	-i "input_uvc.so -f $FRAMERATE -r $SIZE -d /dev/video0 -y -n" \
-	-o "output_http.so -w /usr/local/www -p $PORT -c $ID:$PW" 
+	-o "output_http.so -w /usr/local/www -p $PORT -c $ID:$PW" \
+	-o "output_file.so -f pics -d 1000"
