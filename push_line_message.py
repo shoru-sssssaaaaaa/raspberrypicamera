@@ -16,5 +16,7 @@ def lineNotify(message, *args):
         requests.post(line_notify_api, data=payload, headers=headers, files=files)
 
 
-proc = subprocess.run("./downloadimage.sh", shell=True, text=True)
+proc = subprocess.run("./downloadimage.sh", shell=True)
 lineNotify("(・ω・)", "./image.jpg")
+os.remove("./image.jpg")
+
