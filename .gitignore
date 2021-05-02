@@ -1,1 +1,2 @@
-mjpg-streamer/*
+mjpg-streamer/
+.vscode/
