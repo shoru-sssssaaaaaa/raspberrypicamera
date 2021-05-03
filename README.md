@@ -1,5 +1,6 @@
 # RaspberryPiCamera
 
+![raspberrycamera (1)](https://user-images.githubusercontent.com/52835270/116867609-7413a780-ac48-11eb-92cf-8a10312626cc.png)
 The programs in this repository provide a function to stream video from a USB camera using [MJPG-streamer](https://sourceforge.net/projects/mjpg-streamer/) and send screenshots to [LINE](https://line.me/en/) with cron.
 
 Some examples of usage are
