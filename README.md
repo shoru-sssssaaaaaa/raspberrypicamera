@@ -39,3 +39,8 @@ Some examples of usage are
     sh start_streaming.sh
     ```
 1.  Configure crontab with `crontab -e`. (See `example-crontab` file)
+
+## How to use?
+
+- You can see the streaming video by visiting http://(raspberrypi-host):8080.
+- You can receive LINE notifications in a regular basis by specifying `crontab`.
