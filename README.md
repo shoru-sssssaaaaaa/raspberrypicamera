@@ -16,5 +16,3 @@ None.
 | PW         | Yes       | Password for access to MJPT Streamer |
 | DIR        | Yes       | Absolute directory path to this repo |
 | LINE_TOKEN | Yes       | Token for the Line notify            |
-
-IVj6c8AJg7pHxJq7LYAQybMpYmO1u5gbcd3MPscaeeo
