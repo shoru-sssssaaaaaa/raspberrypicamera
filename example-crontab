@@ -6,7 +6,7 @@
 
 ID=usernameformjpgstreamer
 PW=password1234
-LINE_TOKEN=IVj6c8AJg5gbcd3MdfsaPscadfaedfdfddeo
+LINE_TOKEN=gQkR0LlbrKE3GLtaTPdu2q0x0fO5F3W7ovd3qb8zxAw
 DIR=/home/pi/project/Raspberrycamera
 */10 * * * * /usr/bin/python3 /home/pi/project/Raspberrycamera/push_line_message.py > /var/log/job.log 2>&1
 
